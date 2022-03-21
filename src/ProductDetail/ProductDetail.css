@@ -1,0 +1,124 @@
+
+ .detail {
+    margin: 0;
+    padding: 0;
+    background: whitesmoke;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+ }
+
+.box-detail {
+    width: 85%;
+    height: 85%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 25px 40px #1687d933;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.box-detail_img {
+    background: #6dd5ed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.box-detail_img img {
+    width: 80%;
+    height: 600px;
+    border-radius: 35px;
+}
+
+.box-detail_title {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px 0 50px;
+}
+
+.box-detail_title h1 {
+    color: #4c4c4c;
+    padding-bottom: 10px;
+    font-size: 2.4em;
+    font-weight: 900;
+}
+
+.box-detail_title span {
+    font-size: 1.4em;
+	color: #a6a6a6;
+    padding-bottom: 35px;
+}
+
+.box-detail_title-price {
+    display: flex;
+    align-items: center;
+    color: #ff3f40;
+}
+
+.box-detail_title p {
+    padding-bottom: 20px;
+    font-size: 1.2rem;
+    font-family: cursive;
+}
+
+.box-detail_title-price span {
+    font-size: 7rem;
+    padding-left: 30px;
+    color: #ff3f40;
+}
+
+.box-detail_title-price p {
+    padding-bottom: 30px;
+    font-size: 1.6rem;
+}
+
+.box-detail_title-script {
+    padding: 20px 0;
+}
+
+.box-detail_title-buy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-detail_title-btn-buy {
+	height: 75px;
+    width: 350px;
+    padding: 1.5em 3.1em;
+    margin-top: 30px;
+	border: none;
+	border-radius: 7px;
+	font-size: 0.8em;
+	font-weight: 700;
+	letter-spacing: 1.3px;
+	color: #fff;
+	background-color: #ff3f40;
+	box-shadow: 2px 2px 25px -7px #a6a6a6;
+	cursor: pointer;
+}
+
+.box-detail_title-btn-buy:hover {
+    color: #fff;
+	background: #ff3f40;
+}
+
+.box-detail_title-btn-buy:active {
+	transform: scale(0.97);
+    color: #fff;
+	background: #ff3f40;
+}
+
+.fa-cart-shopping {
+    font-size: 2rem;
+    padding-top: 40px;
+    padding-right: 40px;
+}
+
+.box-detail_title-buy:hover .fa-cart-shopping {
+    color: #0087ca;
+}
